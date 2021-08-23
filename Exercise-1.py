@@ -1,9 +1,9 @@
 #cubic root using Bisection search
 
-def cubic_root(x):
+def cubic_root(x): 
     start = 0
     end = x
-    eps = 0.001
+    eps = 0.001 #deffine eps
     while True:
         mid = (start + end) //2
         cube = mid * mid * mid
